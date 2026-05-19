@@ -1,0 +1,11 @@
+# Arquivos
+*.o
+*.exe
+.env
+src/vc140.pdb
+
+# Pastas
+build/
+tests/
+include/
+.vscode/
