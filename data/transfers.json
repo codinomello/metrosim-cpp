@@ -1,0 +1,22 @@
+[
+  {
+    "station": "Sé",
+    "lines": ["blue", "red"],
+    "transfer_time": 4
+  },
+  {
+    "station": "Paraíso",
+    "lines": ["blue", "green"],
+    "transfer_time": 3
+  },
+  {
+    "station": "Ana Rosa",
+    "lines": ["blue", "green"],
+    "transfer_time": 4
+  },
+  {
+    "station": "Luz",
+    "lines": ["blue", "yellow"],
+    "transfer_time": 5
+  }
+]

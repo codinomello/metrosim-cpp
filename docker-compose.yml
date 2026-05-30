@@ -1,0 +1,25 @@
+version: "3.9"
+
+services:
+  core:
+    build:
+      context: .
+      dockerfile: core/Dockerfile
+  
+  api:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - core
+
+  web:
+    build:
+      context: ./web
+      dockerfile: web/Dockerfile
+    ports:
+      - "5173:5173"
+    depends_on:
+      - api

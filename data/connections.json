@@ -1,0 +1,25 @@
+[
+  { "from": "Tucuruvi", "to": "Santana", "time": 4 },
+  { "from": "Santana", "to": "Portuguesa-Tietê", "time": 3 },
+  { "from": "Portuguesa-Tietê", "to": "Luz", "time": 5 },
+  { "from": "Luz", "to": "Sé", "time": 4 },
+  { "from": "Sé", "to": "Paraíso", "time": 5 },
+  { "from": "Paraíso", "to": "Ana Rosa", "time": 2 },
+  { "from": "Ana Rosa", "to": "Santa Cruz", "time": 3 },
+  { "from": "Santa Cruz", "to": "Jabaquara", "time": 6 },
+
+  { "from": "Vila Madalena", "to": "Clínicas", "time": 4 },
+  { "from": "Clínicas", "to": "Consolação", "time": 3 },
+  { "from": "Consolação", "to": "Brigadeiro", "time": 3 },
+  { "from": "Brigadeiro", "to": "Paraíso", "time": 2 },
+  { "from": "Paraíso", "to": "Ana Rosa", "time": 2 },
+  { "from": "Ana Rosa", "to": "Chácara Klabin", "time": 3 },
+  { "from": "Chácara Klabin", "to": "Vila Prudente", "time": 5 },
+
+  { "from": "Palmeiras-Barra Funda", "to": "República", "time": 5 },
+  { "from": "República", "to": "Anhangabaú", "time": 2 },
+  { "from": "Anhangabaú", "to": "Sé", "time": 2 },
+  { "from": "Sé", "to": "Brás", "time": 4 },
+  { "from": "Brás", "to": "Tatuapé", "time": 5 },
+  { "from": "Tatuapé", "to": "Corinthians-Itaquera", "time": 7 }
+]

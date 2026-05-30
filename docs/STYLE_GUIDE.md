@@ -92,8 +92,8 @@ Não use getter/setter só por formalidade.
 Ruim:
 
 ```cpp
-getName()
-setName()
+get_name()
+set_name()
 ```
 
 Sem necessidade.
@@ -258,10 +258,10 @@ Simulator
 camelCase
 
 ```cpp
-addPassenger()
-moveTo()
-isFull()
-updatePosition()
+add_passenger()
+move_to()
+is_full()
+update_position()
 ```
 
 ---
@@ -314,15 +314,15 @@ namespace metro
 ```txt
 MetroSim-SP/
 ├── include/
-│   ├── Station.h
-│   ├── Train.h
+│   ├── station.h
+│   ├── train.h
 │   ├── Graph.h
 │   ├── Passenger.h
 │   └── Simulator.h
 │
 ├── src/
-│   ├── Station.cpp
-│   ├── Train.cpp
+│   ├── station.cpp
+│   ├── train.cpp
 │   ├── Graph.cpp
 │   ├── Simulator.cpp
 │   └── main.cpp
@@ -348,19 +348,19 @@ public:
     Station(int id, const std::string& name, int capacity)
         : id_(id), name_(name), capacity_(capacity), passengers_(0) {}
 
-    void addPassenger(int amount) {
+    void add_passanger(int amount) {
         passengers_ += amount;
     }
 
-    void removePassenger(int amount) {
+    void remove_passenger(int amount) {
         passengers_ -= amount;
     }
 
-    bool isFull() const {
+    bool is_full() const {
         return passengers_ >= capacity_;
     }
 
-    const std::string& getName() const {
+    const std::string& get_name() const {
         return name_;
     }
 };

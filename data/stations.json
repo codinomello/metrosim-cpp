@@ -1,0 +1,28 @@
+[
+  { "id": 1, "name": "Tucuruvi", "line": "blue", "x": 420, "y": 40, "demand": 42000 },
+  { "id": 2, "name": "Santana", "line": "blue", "x": 420, "y": 120, "demand": 61000 },
+  { "id": 3, "name": "Portuguesa-Tietê", "line": "blue", "x": 420, "y": 180, "demand": 56000 },
+  { "id": 4, "name": "Luz", "line": "blue", "x": 420, "y": 280, "demand": 170000 },
+  { "id": 5, "name": "Sé", "line": "blue", "x": 420, "y": 420, "demand": 250000 },
+  { "id": 6, "name": "Paraíso", "line": "blue", "x": 420, "y": 540, "demand": 120000 },
+  { "id": 7, "name": "Ana Rosa", "line": "blue", "x": 420, "y": 620, "demand": 95000 },
+  { "id": 8, "name": "Santa Cruz", "line": "blue", "x": 420, "y": 720, "demand": 83000 },
+  { "id": 9, "name": "Jabaquara", "line": "blue", "x": 420, "y": 860, "demand": 67000 },
+
+  { "id": 10, "name": "Vila Madalena", "line": "green", "x": 120, "y": 520, "demand": 58000 },
+  { "id": 11, "name": "Clínicas", "line": "green", "x": 240, "y": 520, "demand": 74000 },
+  { "id": 12, "name": "Consolação", "line": "green", "x": 330, "y": 520, "demand": 128000 },
+  { "id": 13, "name": "Brigadeiro", "line": "green", "x": 500, "y": 520, "demand": 82000 },
+  { "id": 14, "name": "Paraíso", "line": "green", "x": 420, "y": 540, "demand": 120000 },
+  { "id": 15, "name": "Ana Rosa", "line": "green", "x": 420, "y": 620, "demand": 95000 },
+  { "id": 16, "name": "Chácara Klabin", "line": "green", "x": 420, "y": 700, "demand": 72000 },
+  { "id": 17, "name": "Vila Prudente", "line": "green", "x": 650, "y": 700, "demand": 76000 },
+
+  { "id": 18, "name": "Palmeiras-Barra Funda", "line": "red", "x": 120, "y": 420, "demand": 130000 },
+  { "id": 19, "name": "República", "line": "red", "x": 300, "y": 420, "demand": 160000 },
+  { "id": 20, "name": "Anhangabaú", "line": "red", "x": 360, "y": 420, "demand": 94000 },
+  { "id": 21, "name": "Sé", "line": "red", "x": 420, "y": 420, "demand": 250000 },
+  { "id": 22, "name": "Brás", "line": "red", "x": 540, "y": 420, "demand": 180000 },
+  { "id": 23, "name": "Tatuapé", "line": "red", "x": 700, "y": 420, "demand": 112000 },
+  { "id": 24, "name": "Corinthians-Itaquera", "line": "red", "x": 900, "y": 420, "demand": 92000 }
+]

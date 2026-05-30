@@ -6,6 +6,6 @@ src/vc140.pdb
 
 # Pastas
 build/
+test/
 tests/
-include/
 .vscode/

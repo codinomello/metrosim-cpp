@@ -1,18 +1,18 @@
-BINARY_NAME := metrosim
-BUILD_DIR   := build
+.PHONY: core api web up clean
 
-.PHONY: all configure build run clean
+core:
+	$(MAKE) -C core run
 
-all: run
+api:
+	$(MAKE) -C api run
 
-configure:
-	cmake -S . -B $(BUILD_DIR) -DCMAKE_BUILD_TYPE=Release
+web:
+	cd web && npm run dev
 
-build: configure
-	cmake --build $(BUILD_DIR)
-
-run: build
-	./$(BUILD_DIR)/bin/$(BINARY_NAME)
+up:
+	docker compose up --build
 
 clean:
-	rm -rf $(BUILD_DIR)
+	$(MAKE) -C core clean
+	$(MAKE) -C api clean
+	docker compose down -v
